@@ -1,0 +1,8 @@
+zuul:  
+  routes:
+    google:
+      path: /**
+      url: https://www.google.com/
+  ignored-services: '*'
+  ignoreSecurityHeaders: false
+  sensitiveHeaders: Cookie,Set-Cookie
